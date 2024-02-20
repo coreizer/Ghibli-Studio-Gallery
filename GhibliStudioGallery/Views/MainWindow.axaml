@@ -1,0 +1,19 @@
+<Window
+   x:Class="GhibliStudioGallery.Views.MainWindow"
+   xmlns="https://github.com/avaloniaui"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:views="clr-namespace:GhibliStudioGallery.Views"
+   xmlns:vm="using:GhibliStudioGallery.ViewModels"
+   Title="スタジオジブリの作品 - 作品静止画 ダウンロードツール"
+   Width="480"
+   Height="278"
+   d:DesignHeight="450"
+   d:DesignWidth="800"
+   CanResize="False"
+   Icon="/Assets/avalonia-logo.ico"
+   WindowStartupLocation="CenterScreen"
+   mc:Ignorable="d">
+   <views:MainView />
+</Window>
