@@ -1,4 +1,6 @@
-﻿#region License Information (GPL v3)
+﻿using Avalonia.Controls;
+
+#region License Information (GPL v3)
 
 /**
  * Copyright (C) 2024 coreizer
@@ -21,13 +23,10 @@
 
 namespace GhibliStudioGallery.Views
 {
-    using Avalonia.Controls;
-
-    public partial class MainView : UserControl
-    {
-        public MainView()
-        {
-            this.InitializeComponent();
-        }
+  public partial class MainView : UserControl
+  {
+    public MainView() {
+      this.InitializeComponent();
     }
+  }
 }

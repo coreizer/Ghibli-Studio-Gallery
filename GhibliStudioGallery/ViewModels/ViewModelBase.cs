@@ -1,4 +1,6 @@
-﻿#region License Information (GPL v3)
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+#region License Information (GPL v3)
 
 /**
  * Copyright (C) 2024 coreizer
@@ -21,9 +23,7 @@
 
 namespace GhibliStudioGallery.ViewModels
 {
-    using CommunityToolkit.Mvvm.ComponentModel;
-    
-    public class ViewModelBase : ObservableObject
-    {
-    }
+  public class ViewModelBase : ObservableObject
+  {
+  }
 }
